@@ -23,3 +23,18 @@
   color: #9d9d9d;
   text-align: center;
 }
+
+@media only screen and (max-width: 425px) {
+  .headimg {
+    padding: 40px 30px 60px;
+  }
+
+  .headimg h1 {
+    margin-bottom: 0px;
+    font-size: 130%;
+  }
+
+  .headimg p {
+    font-size: 65%;
+  }
+}

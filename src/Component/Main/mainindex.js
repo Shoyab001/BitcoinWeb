@@ -6,8 +6,6 @@ const mainindex = () => {
   return (
     <div>
       <Container>
-        <br />
-        <br />
         <Tabs
           defaultActiveKey="home"
           id="justify-tab-example"
@@ -35,7 +33,7 @@ const mainindex = () => {
                   src="https://img.freepik.com/premium-vector/bitcoin-mining-flat-vector-illustration-banner-template_128772-732.jpg"
                   alt=""
                   width={"380px"}
-                  // style={{ transform: "scaleX(-1)" }}
+                  className="infoimg"
                 />
               </Col>
             </Row>
@@ -45,7 +43,7 @@ const mainindex = () => {
                   src="https://img.freepik.com/premium-vector/isometric-locked-bitcoin-wallet_47328-1929.jpg"
                   alt=""
                   width={"380px"}
-                  // style={{ transform: "scaleX(-1)" }}
+                  className="infoimg"
                 />
               </Col>
               <Col style={{ margin: "20px 0px 20px" }}>
@@ -84,7 +82,9 @@ const mainindex = () => {
                   src="https://cdn-icons-png.flaticon.com/512/7047/7047060.png"
                   alt=""
                   width={"380px"}
+                  className="infoimg"
                   style={{ transform: "scaleX(-1)" }}
+
                 />
               </Col>
             </Row>
@@ -94,6 +94,7 @@ const mainindex = () => {
                   src="https://static.vecteezy.com/system/resources/previews/009/385/728/original/bitcoin-icon-sign-symbol-design-free-png.png"
                   alt=""
                   width={"380px"}
+                  className="infoimg"
                 />
               </Col>
               <Col style={{ margin: "20px 0px 20px" }}>
@@ -134,7 +135,7 @@ const mainindex = () => {
                   src="https://img.freepik.com/premium-vector/bitcoin-mining-flat-vector-illustration-banner-template_128772-732.jpg"
                   alt=""
                   width={"380px"}
-                  // style={{ transform: "scaleX(-1)" }}
+                  className="infoimg"
                 />
               </Col>
             </Row>
@@ -144,7 +145,7 @@ const mainindex = () => {
                   src="https://img.freepik.com/free-vector/gradient-cryptocurrency-concept-with-wallet_23-2149154182.jpg?w=2000"
                   alt=""
                   width={"380px"}
-                  // style={{ transform: "scaleX(-1)" }}
+                  className="infoimg"
                 />
               </Col>
               <Col style={{ margin: "20px 0px 20px" }}>
@@ -184,7 +185,7 @@ const mainindex = () => {
                   src="https://img.freepik.com/free-vector/monthly-expense-planning-reminder-appointment-payment-deadline-worker-with-timetable-organizer-schedule-countdown-payday-vector-isolated-concept-metaphor-illustration_335657-4322.jpg"
                   alt=""
                   width={"380px"}
-                  // style={{ transform: "scaleX(-1)" }}
+                  className="infoimg"
                 />
               </Col>
             </Row>
@@ -194,7 +195,7 @@ const mainindex = () => {
                   src="https://attentive.ai/blog/wp-content/uploads/2023/02/Business-people-working-together-on-project-1024x683.jpg"
                   alt=""
                   width={"380px"}
-                  // style={{ transform: "scaleX(-1)" }}
+                  className="infoimg"
                 />
               </Col>
               <Col style={{ margin: "20px 0px 20px" }}>

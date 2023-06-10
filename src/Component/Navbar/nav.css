@@ -1,0 +1,40 @@
+.getHelp {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.getHelp :hover {
+  color: rgb(145, 145, 145);
+}
+.getHelp i {
+  color: black;
+  font-size: 25px;
+}
+
+.head h2 {
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: black;
+  font-size: 130%;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Exo 2", sans-serif;
+}
+
+@media only screen and (max-width: 425px) {
+  .getHelp {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .getHelp i {
+    color: black;
+    font-size: 18px;
+  }
+
+  .head h2 {
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 100%;
+  }
+}

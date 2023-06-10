@@ -7,58 +7,57 @@
     url("https://bitcoin.org/img/hero/footer-bg.svg?1528322191") top no-repeat;
   z-index: 10;
 }
-.logofooter {
-  display: block;
-  margin-bottom: 155px;
-  text-align: center;
-}
 
-.title {
-  font-size: 100%;
+.footertitle h2 {
+  margin-bottom: 5px;
+  font-weight: 400;
   color: #ffffff;
-  text-align: left;
-  line-height: 52px;
+  font-size: 200%;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.contact h3 {
+  width: 100%;
+  font-size: 15px;
+  font-family: "Comfortaa", cursive;
   font-weight: 600;
+  color: #9d9d9d;
+  border: none;
 }
 
-.btn {
-  margin-left: 20px;
-  font-weight: 700;
-  border-radius: 5px;
-  color: black;
+.whatsapp {
+  background: transparent !important;
+  color: white;
+  border-radius: 50%;
+  font-size: 32px;
 }
 
-.footermenu ul{
-    margin: 0;
-    padding: 0;
-    
-}
-.footermenu ul li{
-    margin: 0;
-    list-style: none;
-    text-align: start;
+.telegram {
+  margin-left: 10px;
+  background: transparent !important;
+  color: white;
+  border-radius: 50%;
+  font-size: 31px;
 }
 
-.footermenu ul li a {
-  display: block;
-  font-size: 106.25%;
-  line-height: 34px;
-  color: inherit;
-  text-decoration: none;
-}
+@media only screen and (max-width: 425px) {
+  .footer {
+    padding-top: 20px;
+  }
 
-.Network{
-    text-align: end;
-}
-.Network a{
-    text-decoration: none;
-}
+  .footertitle h2 {
+    font-size: 125%;
+    line-height: revert;
 
-.dot{
-   
-    display: inline-block;
-    padding-left: 20px;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-image: url("https://bitcoin.org/img/icons/netstatus_normal.svg?1528322191");
+  }
+
+  .whatsapp {
+    font-size: 20px;
+  }
+
+  .telegram {
+    font-size: 20px;
+  }
 }

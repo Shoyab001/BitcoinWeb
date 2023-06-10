@@ -13,11 +13,11 @@ function App() {
       <Navbar />
       <Header />
       <div>
-      <div class="icon-bar">
-        <a href="#" class="whatsapp">
+      <div className="icon-bar" style={{background:'black'}} >
+        <a href="#" >
           <i class="fa fa-whatsapp"></i>
         </a>
-        <a href="#" class="telegram">
+        <a href="#">
           <i class="fa fa-telegram"></i>
         </a>
       </div>
