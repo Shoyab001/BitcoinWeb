@@ -1,0 +1,64 @@
+.footer {
+  position: relative;
+  padding-top: 60px;
+  text-align: left;
+  color: #9d9d9d;
+  background: #13161f
+    url("https://bitcoin.org/img/hero/footer-bg.svg?1528322191") top no-repeat;
+  z-index: 10;
+}
+.logofooter {
+  display: block;
+  margin-bottom: 155px;
+  text-align: center;
+}
+
+.title {
+  font-size: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 52px;
+  font-weight: 600;
+}
+
+.btn {
+  margin-left: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: black;
+}
+
+.footermenu ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.footermenu ul li{
+    margin: 0;
+    list-style: none;
+    text-align: start;
+}
+
+.footermenu ul li a {
+  display: block;
+  font-size: 106.25%;
+  line-height: 34px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.Network{
+    text-align: end;
+}
+.Network a{
+    text-decoration: none;
+}
+
+.dot{
+   
+    display: inline-block;
+    padding-left: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url("https://bitcoin.org/img/icons/netstatus_normal.svg?1528322191");
+}

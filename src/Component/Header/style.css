@@ -1,0 +1,25 @@
+.headimg {
+  position: relative;
+  padding: 96px 30px 138px;
+  background: url("https://bitcoin.org/img/hero/hero-bg.svg?1528322191") bottom
+    no-repeat;
+  background-size: cover;
+  z-index: 10;
+}
+
+.headimg h1 {
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 250%;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.headimg p {
+  margin: 0;
+  font-size: 137.5%;
+  color: #9d9d9d;
+  text-align: center;
+}
