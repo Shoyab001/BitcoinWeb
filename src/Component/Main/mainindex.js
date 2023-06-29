@@ -5,15 +5,16 @@ import { Row, Col, Container, Tab, Tabs } from "react-bootstrap";
 const mainindex = () => {
   return (
     <div>
-      <Container>
+      <Container className="App">
+        <h2 className="mainhead">How to use Bitcoinexch7</h2>
+
         <Tabs
           defaultActiveKey="home"
-          id="justify-tab-example"
-          className="mb-3 tab"
-          justify
+          id="uncontrolled-tab-example"
+          className="mb-3 subtab"
         >
-          <Tab eventKey="home" title="How to use Bitcoin">
-            <Row>
+          <Tab eventKey="home" title="Inform yourself">
+            <Row className="subRow">
               <Col style={{ margin: "20px 0px 20px" }}>
                 <div className="titlecol">
                   <h1>Inform yourself</h1>
@@ -29,15 +30,12 @@ const mainindex = () => {
                 </div>
               </Col>
               <Col>
-                <img
-                  src="https://img.freepik.com/premium-vector/bitcoin-mining-flat-vector-illustration-banner-template_128772-732.jpg"
-                  alt=""
-                  width={"380px"}
-                  className="infoimg"
-                />
+                <img src="job.png" alt="" width={"100%"} className="infoimg" />
               </Col>
             </Row>
-            <Row>
+          </Tab>
+          <Tab eventKey="profile" title=" Choose your wallet">
+            <Row className="subRow">
               <Col>
                 <img
                   src="https://img.freepik.com/premium-vector/isometric-locked-bitcoin-wallet_47328-1929.jpg"
@@ -63,7 +61,9 @@ const mainindex = () => {
                 </div>
               </Col>
             </Row>
-            <Row>
+          </Tab>
+          <Tab eventKey="longer-tab" title="Buy Bitcoin">
+            <Row className="subRow">
               <Col style={{ margin: "20px 0px 20px" }}>
                 <div className="titlecol">
                   <h1>Get Bitcoin</h1>
@@ -84,11 +84,12 @@ const mainindex = () => {
                   width={"380px"}
                   className="infoimg"
                   style={{ transform: "scaleX(-1)" }}
-
                 />
               </Col>
             </Row>
-            <Row>
+          </Tab>
+          <Tab eventKey="contact" title="Spend Bitcoin">
+            <Row className="subRow">
               <Col>
                 <img
                   src="https://static.vecteezy.com/system/resources/previews/009/385/728/original/bitcoin-icon-sign-symbol-design-free-png.png"
@@ -113,8 +114,16 @@ const mainindex = () => {
               </Col>
             </Row>
           </Tab>
-          <Tab eventKey="profile" title="How to accept Bitcoin">
-            <Row>
+        </Tabs>
+
+        <h2 className="mainhead">How to accept Bitcoinexch7</h2>
+        <Tabs
+          defaultActiveKey="Inform yourself"
+          id="uncontrolled-tab-example"
+          className="mb-3 subtab2"
+        >
+          <Tab eventKey="Inform yourself" title="Inform yourself">
+            <Row className="subRow">
               <Col style={{ margin: "20px 0px 20px" }}>
                 <div className="titlecol">
                   <h1>Inform yourself</h1>
@@ -132,14 +141,16 @@ const mainindex = () => {
               </Col>
               <Col>
                 <img
-                  src="https://img.freepik.com/premium-vector/bitcoin-mining-flat-vector-illustration-banner-template_128772-732.jpg"
+                  src="/bitcoincash.png"
                   alt=""
-                  width={"380px"}
+                  width={"100%"}
                   className="infoimg"
                 />
               </Col>
             </Row>
-            <Row>
+          </Tab>
+          <Tab eventKey="Processing payments" title="Processing payments">
+            <Row className="subRow">
               <Col>
                 <img
                   src="https://img.freepik.com/free-vector/gradient-cryptocurrency-concept-with-wallet_23-2149154182.jpg?w=2000"
@@ -164,7 +175,9 @@ const mainindex = () => {
                 </div>
               </Col>
             </Row>
-            <Row>
+          </Tab>
+          <Tab eventKey="Accounting and taxes" title="Accounting and taxes">
+            <Row className="subRow">
               <Col style={{ margin: "20px 0px 20px" }}>
                 <div className="titlecol">
                   <h1>Accounting and taxes</h1>
@@ -189,7 +202,9 @@ const mainindex = () => {
                 />
               </Col>
             </Row>
-            <Row>
+          </Tab>
+          <Tab eventKey="Gaining visibility" title="Gaining visibility">
+            <Row className="subRow">
               <Col>
                 <img
                   src="https://attentive.ai/blog/wp-content/uploads/2023/02/Business-people-working-together-on-project-1024x683.jpg"
@@ -216,6 +231,7 @@ const mainindex = () => {
             </Row>
           </Tab>
         </Tabs>
+
         <br />
         <br />
       </Container>

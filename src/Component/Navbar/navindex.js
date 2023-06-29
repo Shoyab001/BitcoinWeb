@@ -13,12 +13,10 @@ import {
 const navindex = () => {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar style={{ backgroundColor: "#13161f" }} expand="lg">
         <Container>
-          <Navbar.Brand href="#" className="head">
-          <h2>
-          bitcoinexch11
-          </h2>
+          <Navbar.Brand href="#" className="navhead">
+            <h2>bitcoinexch7</h2>
           </Navbar.Brand>
 
           <Nav
@@ -28,7 +26,9 @@ const navindex = () => {
           ></Nav>
           <Nav>
             <Nav.Link className="getHelp" href="#">
-              Get Help <i class="fa fa-question-circle"></i>
+              <h4>
+                Get Help <i class="fa fa-question-circle"></i>
+              </h4>
             </Nav.Link>
           </Nav>
         </Container>

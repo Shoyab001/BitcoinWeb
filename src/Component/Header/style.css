@@ -1,8 +1,6 @@
 .headimg {
   position: relative;
   padding: 96px 30px 138px;
-  background: url("https://bitcoin.org/img/hero/hero-bg.svg?1528322191") bottom
-    no-repeat;
   background-size: cover;
   z-index: 10;
 }
@@ -10,7 +8,7 @@
 .headimg h1 {
   margin-bottom: 5px;
   font-weight: 400;
-  color: #ffffff;
+  color: #000000;
   font-size: 250%;
   text-align: center;
   line-height: 50px;
@@ -30,11 +28,17 @@
   }
 
   .headimg h1 {
-    margin-bottom: 0px;
-    font-size: 130%;
+    margin-bottom: 5px;
+    font-size: 99%;
+    line-height: normal;
   }
 
   .headimg p {
-    font-size: 65%;
+    font-size: 35%;
+    text-align: justify;
+  }
+
+  .headerimage{
+    margin-top: 20px;
   }
 }

@@ -1,3 +1,6 @@
+body {
+  /* background-color: rgb(241, 247, 253); */
+}
 .getHelp {
   font-size: 20px;
   font-weight: 500;
@@ -6,20 +9,20 @@
 .getHelp :hover {
   color: rgb(145, 145, 145);
 }
-.getHelp i {
-  color: black;
+.getHelp h4 {
+  color: white;
   font-size: 25px;
 }
 
-.head h2 {
-  margin-bottom: 5px;
-  font-weight: 400;
-  color: black;
-  font-size: 130%;
-  text-align: center;
-  line-height: 50px;
-  font-family: "Exo 2", sans-serif;
-}
+  .navhead h2 {
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: white;
+    font-size: 130%;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Exo 2", sans-serif;
+  }
 
 @media only screen and (max-width: 425px) {
   .getHelp {
@@ -27,14 +30,21 @@
     font-weight: 500;
   }
   .getHelp i {
-    color: black;
-    font-size: 18px;
+    color: white;
+    font-size: 12px;
+  }
+  .getHelp h4 {
+    color: white;
+    font-size: 10px;
+    margin-right: 20px;
   }
 
-  .head h2 {
+  .navhead h2 {
     margin-bottom: 0px;
     margin-left: 20px;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 85%;
+    line-height: 40px;
+    
   }
 }

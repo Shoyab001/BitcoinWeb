@@ -5,7 +5,7 @@
   font-family: "Comfortaa", cursive;
   font-weight: 600;
   color: #9d9d9d;
-  border: none;
+  border-bottom: 5px solid black;
 }
 
 .nav-link {
@@ -20,7 +20,7 @@
 .titlecol h1 {
   margin-bottom: 10px;
   font-weight: 400;
-  color: #ff9900;
+  color: #0040ff;
   font-size: 180%;
   text-align: left;
   line-height: 50px;
@@ -30,7 +30,7 @@
 .titlecol2 h1 {
   margin-bottom: 10px;
   font-weight: 400;
-  color: #ff9900;
+  color: #0040ff;
   font-size: 180%;
   text-align: left;
   line-height: 50px;
@@ -39,6 +39,7 @@
 
 .titlecol {
   margin: 30px 0px 30px;
+  text-align: end;
 }
 
 .titlecol2 {
@@ -58,12 +59,36 @@
 
 .btnleft {
   margin: 20px 0px 20px;
-  background-color: #ff9900;
+  background-color: #0040ff;
   padding: 10px;
   text-decoration: none;
   color: white;
   font-size: 15px;
   font-weight: 600;
+}
+
+.mainhead{
+  display: inline-block;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #0040ff;
+}
+
+.infoimg{
+  margin-left: 50px;
+}
+
+.subtab{
+  margin-top: 50px;
+}
+.subtab2{
+  margin-top: 50px;
+}
+
+.subRow{
+  margin: 70px;
 }
 
 @media only screen and (max-width: 425px) {
@@ -94,8 +119,10 @@
   }
 
   .infoimg {
-    width: 200px;
-    margin-top: 29px;
+    width: 140px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 5px;
   }
 
   .titlecol {
@@ -120,4 +147,23 @@
     padding: 5px;
     font-size: 8px;
   }
+  .mainhead{
+    font-size: 12px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #0040ff;
+  }
+
+  .subtab{
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .subtab2{
+    font-size: 8px;
+    margin-top: 10px;
+  }
+
+  .subRow{
+    margin: 0px;
+  }
+  
 }
