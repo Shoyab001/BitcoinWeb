@@ -15,14 +15,20 @@ const headerindex = () => {
             </p>
           </div>
         </Col>
-        <Col>
-          <img
-            src="https://img.freepik.com/free-vector/bitcoin-mining-cryptocurrency-mining-investors-invest-bitcoin-technology-they-buy-computers-mine-bitcoins-get-rich-vector-cartoon-illustration-flat-design_1150-56217.jpg?w=826&t=st=1686390302~exp=1686390902~hmac=955a83658f3ef3dd5840b15ae1a12153062d1ffa8809c740b98b55a8d6b7c5e5"
-            width={"100%"}
-            alt=""
-            className="headerimage"
-          />
-        </Col>
+        <Col xs={12} md={6}  className="head" >
+            {/* <img src='/bg.png' style={{}}></img> */}
+            <div>
+              <ul className="mt-3">
+                <li> Pay 3000rps And Get 10000rps</li>
+                <li> Pay 5000rps And Get 15000rps</li>
+                <li> Pay 8000rps And Get 24000rps</li>
+                <li> Pay 10000rps And Get 30000rps</li>
+                <li> Pay 20000rps And Get 60000rps</li>
+                <li> Pay 30000rps And Get 85000rps</li>
+                <li> Pay 50000rps And Get 1.4Lac rps</li>
+              </ul>
+            </div>
+          </Col>
       </Row>
     </Container>
   );

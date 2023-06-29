@@ -13,18 +13,17 @@ function App() {
       <Navbar />
       <Header />
       <div>
-      <div className="icon-bar" style={{background:'black'}} >
-        <a href="#" >
-          <i class="fa fa-whatsapp"></i>
-        </a>
-        <a href="#">
-          <i class="fa fa-telegram"></i>
-        </a>
+        <div className="icon-bar" style={{ background: "black" }}>
+          <a href="#">
+            <i class="fa fa-whatsapp"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-telegram"></i>
+          </a>
+        </div>
+        <Main />
+        <Footer />
       </div>
-      <Main />
-      <Footer />
-      </div>
-      
     </>
   );
 }
