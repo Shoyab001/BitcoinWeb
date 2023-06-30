@@ -7,7 +7,7 @@ const headerindex = () => {
     <Container>
        <Row>
           <Col xs={12} md={6}  className="head  text-center">
-            <h1>Getting started with Bitcoinexch365</h1>
+            <h1>Getting started with Bitcoinexch7</h1>
             <p className="summery">
               Using Bitcoin to transact is easy and accessible to everyone.
             </p>
