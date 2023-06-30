@@ -14,10 +14,10 @@ function App() {
       <Header />
       <div>
         <div className="icon-bar" style={{ background: "black" }}>
-          <a href="#">
+          <a href="https://wa.me/7877807340">
             <i class="fa fa-whatsapp"></i>
           </a>
-          <a href="#">
+          <a href="https://t.me/+ocl_GsXmglIxYmYx">
             <i class="fa fa-telegram"></i>
           </a>
         </div>
